@@ -1,0 +1,12 @@
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\bin\Debug\CopyFiles.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\bin\Debug\CopyFiles.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\bin\Debug\Approva.QA.Logger.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\bin\Debug\Approva.QA.Logger.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\obj\Debug\CopyFiles.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\obj\Debug\CopyFiles.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyFiles\obj\Debug\CopyFiles.pdb
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\CopyFiles.dll
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\CopyFiles.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\CopyFiles\obj\Debug\CopyFiles.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\CopyFiles\obj\Debug\CopyFiles.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\CopyFiles\obj\Debug\CopyFiles.pdb

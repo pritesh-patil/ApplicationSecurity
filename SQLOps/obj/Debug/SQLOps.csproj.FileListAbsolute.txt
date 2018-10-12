@@ -1,0 +1,7 @@
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\bin\Debug\SQLOps.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\bin\Debug\SQLOps.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\bin\Debug\Approva.QA.Logger.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\bin\Debug\Approva.QA.Logger.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\obj\Debug\SQLOps.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\obj\Debug\SQLOps.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\SQLOps\obj\Debug\SQLOps.pdb

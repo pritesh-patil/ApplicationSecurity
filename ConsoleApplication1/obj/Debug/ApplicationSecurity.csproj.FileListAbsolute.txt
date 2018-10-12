@@ -1,0 +1,16 @@
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ApplicationSecurity.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ApplicationSecurity.exe
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ApplicationSecurity.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ApplicationSecurity.Properties.Resources.resources
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ApplicationSecurity.csproj.GenerateResource.Cache
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\AppSecurity.xml
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\data.xml
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\web.config
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\ApplicationSecurity.exe.config
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\ApplicationSecurity.exe
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\ApplicationSecurity.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\ConsoleApplication1\obj\Debug\ApplicationSecurity.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\ConsoleApplication1\obj\Debug\ApplicationSecurity.Properties.Resources.resources
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\ConsoleApplication1\obj\Debug\ApplicationSecurity.csproj.GenerateResource.Cache
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\ConsoleApplication1\obj\Debug\ApplicationSecurity.exe
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\ConsoleApplication1\obj\Debug\ApplicationSecurity.pdb

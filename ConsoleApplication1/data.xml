@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <IRCcopyFiles>
+    <SourceFile path="\\BizRightsPresentation\\bin" fileName="Approva.Presentation.Framework.HttpModule.dll">
+      <location>\Core\bin</location>
+      <location>\Adapters\TMonitor\bin</location>
+      <location>\BRPublisher\bin</location>
+      <location>\Settings\bin</location>
+    </SourceFile>
+  </IRCcopyFiles>
+  <CMcopyFiles>
+    <SourceFile path="\\presentation\\bin" fileName="Approva.Presentation.Framework.HttpModule.dll">
+      <location>\Presentation</location>
+      <location>\Presentation\Dashboards</location>
+      <location>\platform\pdsservice</location>
+    </SourceFile>
+  </CMcopyFiles>
+  <RegistryOperations>
+    <!--Disabling the RC4 Cipher suites-->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 64/128" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+    <!-- Disabling the SSLv2 or SSLv3-->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server" regKey="DisabledByDefault" regvalue="1" regValueType="int" regValueKind="null"/>
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server" regKey="DisabledByDefault" regvalue="1" regValueType="int" regValueKind="null"/>
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+
+    <!-- Ensure TLS 1.2 is enabled-->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server" regKey="Enabled" regvalue="-1" regValueType="String" regValueKind="DWORD" />
+
+    <!-- Ensure NULL Cipher Suites is disabled -->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\NULL" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null" />
+
+    <!-- Ensure DES Cipher Suites is disabled-->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\DES 56/56" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null" />
+
+    <!-- Ensure RC2 Cipher Suites is disabled-->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC2 56/128" regKey="Enabled" regvalue="0" regValueType="int" regValueKind="null"/>
+
+    <!-- Ensure AES 256/256 Cipher Suite is enabled-->
+    <Registry regHive="HKEY_LOCAL_MACHINE" regPath="System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\AES 256/256" regKey="Enabled" regvalue="-1" regValueType="String"  regValueKind="DWORD" />
+
+
+  </RegistryOperations>
+  <GroupPolicy>
+    <policy name="User Account Control: Behavior of the elevation prompt for administrators inAdmin Approval Mode" value="Prompt for consent for non-Windows binaries"/>
+    <policy name="User Account Control: Switch to the secure desktop when prompting forelevation" value="Enabled'"/>
+  </GroupPolicy>
+  <SqlOperations>
+    <Sql>
+      <!--SQL Server - Setting the 'Scan For Startup Procs' server configuration option to 0-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'Scan for startup procs', 0;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--SQL Server - Setting the 'Default Trace Enabled' server configuration option to 1-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'Default trace enabled', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the 'Ole Automation Procedures' server configuration option to 0-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'Ole Automation Procedures', 0;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the value of the 'Ad-hoc Distributed Queries' server configuration option to '0'-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'Ad Hoc Distributed Queries', 0;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the value of the 'CLR Enabled' server configuration option to 0-->
+      EXECUTE sp_configure 'clr enabled', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the value of the Cross DB Ownership Chaining option to '0'-->
+      EXECUTE sp_configure 'cross db ownership chaining', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the Database Mail XPs server configuration option to '0'-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'Database Mail XPs', 0;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the value of the 'Remote Access' server configuration to '0'-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'remote access', 0;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the 'Remote Admin Connections' server configuration option to '0'-->
+      EXECUTE sp_configure 'remote admin connections', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Setting the value of the 'Hide Instance' option to 'Yes' for the production SQL server instances-->
+      EXEC master..xp_instance_regwrite @rootkey = N'HKEY_LOCAL_MACHINE', @key = N'SOFTWARE\Microsoft\Microsoft SQL Server\MSSQLServer\SuperSocketNetLib', @value_name = N'HideInstance', @type = N'REG_DWORD', @value = 1
+    </Sql>
+    <Sql>
+      <!--Setting the value of the 'xp_cmdshell' server configuration option to '0'-->
+      EXECUTE sp_configure 'show advanced options', 1;
+      RECONFIGURE;
+      EXECUTE sp_configure 'xp_cmdshell', 0;
+      RECONFIGURE;
+      EXECUTE sp_configure 'show advanced options', 0;
+      RECONFIGURE;
+    </Sql>
+    <Sql>
+      <!--Ensuring that the 'Login Auditing' option is set to 'failed logins'.-->
+      EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'Software\Microsoft\MSSQLServer\MSSQLServer', N'AuditLevel', REG_DWORD, 2
+    </Sql>
+    <Sql>
+      <!--Ensuring that the 'SQL Server Audit' is set to capture both the 'failed' and the 'successful logins'-->
+      use [master]
+      CREATE SERVER AUDIT TrackLogins
+      TO APPLICATION_LOG;
+
+      CREATE SERVER AUDIT SPECIFICATION TrackAllLogins
+      FOR SERVER AUDIT TrackLogins
+      ADD (FAILED_LOGIN_GROUP),
+      ADD (SUCCESSFUL_LOGIN_GROUP),
+      ADD (AUDIT_CHANGE_GROUP)
+      WITH (STATE = ON);
+
+      ALTER SERVER AUDIT TrackLogins
+      WITH (STATE = ON);
+    </Sql>
+    <Sql>
+      <!--Ensuring that the 'Maximum number of error log files' is set to a value greater than or equal to'12'-->
+      EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'Software\Microsoft\MSSQLServer\MSSQLServer', N'NumErrorLogs', REG_DWORD, 12
+    </Sql>
+    <Sql>
+      <!--Revoke CONNECT permissions on the 'guest user' within all SQL Server databases excluding the master, msdb and tempdb-->
+      REVOKE CONNECT FROM guest
+    </Sql>
+    <Sql>
+      <!--The 'Server Authentication' Property To Windows Authentication mode-->
+      use [master]
+      EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'Software\Microsoft\MSSQLServer\MSSQLServer', N'LoginMode', REG_DWORD, 1
+    </Sql>
+    <Sql>
+      <!--Rename the 'sa' Login Account-->
+      ALTER LOGIN sa WITH NAME = saInfor;
+    </Sql>
+  </SqlOperations>
+</settings>
+

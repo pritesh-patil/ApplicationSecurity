@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <application>IRC</application>
+  <websiteName>IRC_WEBSITE</websiteName>
+  <https>true</https>
+  <port>7777</port>
+  <DriveLetter>D</DriveLetter>
+  <!--      //   In case of using SQL AUTH, comment    windows AUTH DBConnectionString           -->
+  <!-- <DBconnectionString>Persist Security Info=false;User ID=sa;Password=approva1@;Initial Catalog=coredb;Data Source=INPUWQA01.APPROVALAB.INT</DBconnectionString> -->
+  
+  <!--      //For WIN   In case of using WINDOWS AUTH              -->
+  <DBconnectionString>Persist Security Info=false;Integrated Security=true;Initial Catalog=coredb;Data Source=INPUWQA01.APPROVALAB.INT</DBconnectionString>
+  
+</settings>
+

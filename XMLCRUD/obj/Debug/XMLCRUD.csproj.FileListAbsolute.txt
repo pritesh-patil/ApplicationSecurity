@@ -1,0 +1,5 @@
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\XMLCRUD.dll
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\XMLCRUD.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\XMLCRUD\obj\Debug\XMLCRUD.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\XMLCRUD\obj\Debug\XMLCRUD.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\XMLCRUD\obj\Debug\XMLCRUD.pdb

@@ -1,0 +1,5 @@
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyDLL\bin\Debug\CopyDLL.exe.config
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyDLL\bin\Debug\CopyDLL.exe
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyDLL\bin\Debug\CopyDLL.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyDLL\obj\Debug\CopyDLL.exe
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CopyDLL\obj\Debug\CopyDLL.pdb

@@ -1,0 +1,7 @@
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\bin\Debug\Approva.QA.Logger.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\bin\Debug\Approva.QA.Logger.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ClassLibrary1\obj\Debug\ModifyRegistry.csprojResolveAssemblyReference.cache

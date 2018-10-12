@@ -1,0 +1,12 @@
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\bin\Debug\CMDOps.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\bin\Debug\CMDOps.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\bin\Debug\Approva.QA.Logger.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\bin\Debug\Approva.QA.Logger.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\obj\Debug\CMDOps.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\obj\Debug\CMDOps.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\Projects\ConsoleApplication1\CMDOps\obj\Debug\CMDOps.pdb
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\CMDOps.dll
+C:\Pritesh_Data\Pritesh_NET_DEV\ApplicationSecurity\CMDOps.pdb
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\CMDOps\obj\Debug\CMDOps.csprojResolveAssemblyReference.cache
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\CMDOps\obj\Debug\CMDOps.dll
+C:\Users\ppatil\Documents\Visual Studio 2015\ApplicationCISCATSecurity\CMDOps\obj\Debug\CMDOps.pdb
